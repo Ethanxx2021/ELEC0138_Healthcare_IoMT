@@ -1,0 +1,15 @@
+{
+  "device_id": "dev_001",
+  "patient_id": "pt_001",
+  "timestamp": "2026-03-25T13:46:00Z",
+  "metrics": {
+    "heart_rate": 230,
+    "spo2": 97,
+    "systolic_bp": 118,
+    "diastolic_bp": 76
+  },
+  "signal_quality": 0.94,
+  "battery_level": 81,
+  "seq_no": 1544,
+  "token": "VALID_TOKEN_DEV1"
+}
