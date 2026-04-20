@@ -27,7 +27,7 @@ The FastAPI-based Zero-Trust orchestration layer. It acts as the first line of d
 - **Core Logic** — Handles schema validation (Pydantic), strict Device-to-Patient JWT binding, rate limiting, and blacklist/quarantine control.
 - **Mitigation** — Directly neutralises the BOLA attacks demonstrated by the Red Team by verifying identity schemas before database ingestion.
 
-### 🧠 `/03_Blue_Team_AI_Auditor_Tier2/`
+### 🧠 `0138_SP_ASSESSMENT_CW2_AI`
 
 The offline semantic sanitisation engine combining rule-based heuristics and local Large Language Models (LLMs) to ensure GDPR data sovereignty.
 
