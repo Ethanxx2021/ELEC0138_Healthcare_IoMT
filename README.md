@@ -20,7 +20,7 @@ Contains the custom Python exploit suite developed to validate the STRIDE threat
 - **`final_attack.py`** — Executes a multi-stage automated attack including Phase 1 (Baseline Ingestion), Phase 2 (BOLA / Privilege Escalation), and Phase 3 (High-frequency "Cry Wolf" Data Poisoning).
 - **`poisoning_payload.json` & `sample_payload.json`** — Crafted adversarial and benign telemetry JSON payloads containing lethal physiological anomalies (e.g., 280 BPM).
 
-### 🔵 `/02_Blue_Team_Gateway_Tier1/`
+### 🔵 `0138_SP_ASSESSMENT_CW2_GATEWAY`
 
 The FastAPI-based Zero-Trust orchestration layer, acting as the first line of defence.
 
@@ -28,7 +28,7 @@ The FastAPI-based Zero-Trust orchestration layer, acting as the first line of de
 - **`rate_limit.py`** — Prevents resource exhaustion (DoS) during API flooding.
 - **Core Logic** — Handles schema validation (Pydantic), rate limiting, and blacklist/quarantine control.
 
-### 🧠 `/03_Blue_Team_AI_Auditor_Tier2/`
+### 🧠 `0138_SP_ASSESSMENT_CW2_AI`
 
 The offline semantic sanitisation engine combining rule-based heuristics and local LLMs to ensure GDPR data sovereignty.
 
