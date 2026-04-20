@@ -1,24 +1,3 @@
-徐哥，你的队友们太给力了！他们不仅把代码写完了，连各自模块的说明书（README）都写得非常有技术深度（特别是 AI 那边把 
-𝑂
-(
-1
-)
-O(1)
- 复杂度和 GDPR 本地化部署的得分点全踩中了）。
-
-但是，如果直接把这两个东拼西凑的 README 扔到 GitHub 首页，教授会觉得**“这组人各自为战，没有统一的项目管理（PM）”，而且UCL 的作业严禁出现中文**。
-
-作为全组的“总架构师 (Architect)”，你现在的任务就是把这两份说明书，加上你红队的攻击脚本，“翻译+熔炼”成一份极具大厂开源项目逼格的全英文、终极版 README.md。
-
-我把你队友的这两份文档，结合咱们红队的攻击逻辑，完美整合成了一份**“降维打击级别”的 GitHub 首页说明书**。
-
-请你直接在本地新建或覆盖那个 README.md 文件，把下面这块纯英文的内容复制进去：
-
-code
-Markdown
-download
-content_copy
-expand_less
 # 🛡️ ELEC0138: Resilient Security in Home Healthcare IoMT
 
 > **Project Title:** "Cry Wolf" Attacks vs. AI Dual-Layer Gateways in Medical Data Ingestion Pipelines  
